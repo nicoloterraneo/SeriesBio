@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" fill="none">
+  <defs>
+    <linearGradient id="glass" x1="205" y1="118" x2="986" y2="795" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8FFD8" stop-opacity=".9"/>
+      <stop offset=".22" stop-color="#3BE99B" stop-opacity=".68"/>
+      <stop offset=".53" stop-color="#087B50" stop-opacity=".48"/>
+      <stop offset=".78" stop-color="#8AFFC1" stop-opacity=".86"/>
+      <stop offset="1" stop-color="#056641" stop-opacity=".7"/>
+    </linearGradient>
+    <radialGradient id="cell" cx="0" cy="0" r="1" gradientTransform="matrix(0 232 -232 0 608 449)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1FFD8" stop-opacity=".78"/>
+      <stop offset=".36" stop-color="#8CEB86" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#11A66C" stop-opacity=".05"/>
+    </radialGradient>
+    <filter id="glow" x="62" y="17" width="1076" height="866" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+  <path d="M217 159C420 61 806 93 907 265c75 128-26 234-202 233-159-1-338-53-420 72-68 104 19 215 183 222 170 7 389-78 579-19" stroke="#20D98C" stroke-linecap="round" stroke-width="86" opacity=".2" filter="url(#glow)"/>
+  <circle cx="608" cy="449" r="226" fill="url(#cell)" stroke="#C6FFD0" stroke-opacity=".32" stroke-width="3"/>
+  <path d="M217 159C420 61 806 93 907 265c75 128-26 234-202 233-159-1-338-53-420 72-68 104 19 215 183 222 170 7 389-78 579-19" stroke="url(#glass)" stroke-linecap="round" stroke-width="68"/>
+  <path d="M217 159C420 61 806 93 907 265c75 128-26 234-202 233-159-1-338-53-420 72-68 104 19 215 183 222 170 7 389-78 579-19" stroke="#E3FFE4" stroke-linecap="round" stroke-width="5" opacity=".72"/>
+  <circle cx="507" cy="408" r="17" fill="#E7FFD2" fill-opacity=".8"/>
+  <circle cx="666" cy="504" r="24" fill="#CEFFB3" fill-opacity=".62"/>
+  <circle cx="716" cy="369" r="11" fill="#F4FFD7" fill-opacity=".75"/>
+  <circle cx="559" cy="562" r="9" fill="#D7FFBF" fill-opacity=".62"/>
+</svg>
